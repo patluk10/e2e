@@ -1,0 +1,8 @@
+step,action,expected result
+1,open chrome browser and go to https://user.centrum.cz/,page opened
+2,check if login form is visible,login form is visible
+3,fill credentials and log in,user logged in
+4,Click on compose new email button,user is on page where it is possible to compose new mail
+5,"Fill recipient from contacts, subject, add attachment and send email",email is sent
+6,go to Sent emails section and check that there is email from previous step,recently sent email is in Sent emails section
+7,log out,user is logged out
